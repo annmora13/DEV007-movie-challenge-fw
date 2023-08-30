@@ -1,0 +1,24 @@
+.App {
+  font-family: 'Heroes Assemble Expanded Italic', sans-serif;
+  margin-top: auto;
+  text-align: center;
+  margin: 3rem;
+}
+
+.movies-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 4rem;
+}
+
+.movie {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+}
